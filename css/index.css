@@ -8,6 +8,10 @@ body{
   
     font-family: 'Roboto', sans-serif;}
 
+html {
+    scroll-behavior: smooth;
+    }
+
 /* NAV */
 
 header{
@@ -25,7 +29,7 @@ header{
 
  .nav-btn a{
     text-decoration: none;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 12px 16px;
     color: white;
     border-radius: 12px;
@@ -192,4 +196,249 @@ header{
 
 .guides-container{
     padding: 0 3em;
+}
+
+
+/*    FAQs     */
+
+.faqs-container{
+    padding: 40px 3em;
+}
+
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.faqs-content{
+    width: 100%;
+
+}
+
+.accordion-item{
+    margin-bottom: 1rem;
+    border: 2px solid #E5EAEB;
+    border-radius: 4px;
+    padding: 24px 32px;
+    
+}
+
+.accordion-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: #AF4399;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.accordion-link .icon-remove{
+    display: none;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650ms;
+}
+
+.answer::before{
+    content: "";
+    position: absolute;
+    width: .25rem;
+    height: 70%;
+    background-color: #AF4399 ;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.answer p {
+    font-size: 17px;
+    color: #4D6C78;    
+    padding: 1em;
+    font-weight: 400;
+}
+
+.accordion-item:target .answer{
+max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .icon-add{
+    display: none;
+}
+
+.accordion-item:target .accordion-link .icon-remove{
+    display: block;
+}
+
+
+/*    Contact     */
+
+.contact{
+    background: #F5F7F8;
+    padding: 40px 3em;
+}
+
+.contact-box{
+    border: 1px solid #BDCBD0;
+    padding: 24px 0 24px 48px;
+    margin-top: 16px;
+}
+
+ .heading{
+    display: flex;
+    align-items: center;
+    color: #012D3E;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.heading h3 {
+    padding-left: 16px;
+}
+
+.supp, .sale{
+    display: flex;
+    margin-top: 8px;
+}
+.description{
+    font-size: 17px;
+    font-weight: 300;
+    color: #012D3E;
+}
+
+.subject{
+    font-size: 17px;
+    font-weight: 500;
+    color: #012D3E;
+    margin-left: 8px;
+}
+
+
+.open-time{
+    padding: 24px 0 24px 48px;
+    margin-top: 16px;
+    background: #E5EAEB;
+}
+
+.weekdays, .weekends, .holidays{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 48px;
+    margin-bottom: 8px;
+}
+
+
+/*   FOOTER    */
+
+footer{
+    padding: 40px 3em;
+    background: #012D3E;
+}
+
+.footer-content{
+    width: 100%;
+}
+
+.f-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.f-accordion-item{
+    margin-bottom: 1rem;
+    
+}
+
+.f-accordion-link{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.f-accordion-link .icon-remove{
+    display: none;
+}
+
+.f-answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650ms;
+}
+
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 12px;
+    
+}
+
+.f-answer p {
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;    
+    padding: 1em;
+    font-weight: 400;
+}
+
+.f-accordion-item:target .f-answer{
+max-height: 20rem;
+}
+
+.f-accordion-item:target .f-accordion-link .icon-add{
+    display: none;
+}
+
+.f-accordion-item:target .f-accordion-link .icon-remove{
+    display: block;
+}
+
+
+
+.some-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.icon-some{
+    font-size: 32px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.icon-some:hover{
+    background: #fff;
+    color: #AF4399;
+    border: 1px solid #AF4399;
+}
+
+.copyright{
+    margin-top: 40px;
+    font-size: 14px;
+    color: #fff;
 }

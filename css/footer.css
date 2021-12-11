@@ -1,0 +1,156 @@
+/*   FOOTER    */
+
+footer{
+    padding: 40px 3em;
+    background: #012D3E;
+}
+
+.footer-content{
+    width: 100%;
+}
+
+.f-logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.f-accordion-item{
+    margin-bottom: 1rem;
+    
+}
+
+.f-accordion-link{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.f-accordion-link .icon-remove{
+    display: none;
+}
+
+.f-answer{
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650ms;
+}
+
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 12px;
+    
+}
+
+.f-answer p {
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;    
+    padding: 1em;
+    font-weight: 400;
+}
+
+.f-accordion-item:target .f-answer{
+max-height: 20rem;
+}
+
+.f-accordion-item:target .f-accordion-link .icon-add{
+    display: none;
+}
+
+.f-accordion-item:target .f-accordion-link .icon-remove{
+    display: block;
+}
+
+
+
+.some-links{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.icon-some{
+    font-size: 32px;
+    padding: 16px;
+}
+
+.icon-some:hover{
+    background: #fff;
+    color: #AF4399;
+    border: 1px solid #AF4399;
+}
+
+.copyright{
+    margin-top: 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+@media screen and (min-width: 700px) {
+  footer{
+      padding: 40px 6em;
+  }
+}
+
+
+/*=============================*/
+/*==========desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1100px) {
+  footer{
+      padding: 40px 18em;
+  }
+
+  
+
+  .some-links{
+      display: flex;
+      justify-content: start;
+      margin-top: 40px;
+  }
+  
+  .icon-some{
+      font-size: 32px;
+      padding: 16px;
+  }
+  
+  .icon-some:hover{
+      background: #fff;
+      color: #AF4399;
+      border: 1px solid #AF4399;
+  }
+}
+
+/*=============================*/
+/*==========bigger desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1440px) {
+  footer{
+      padding: 40px 24em;
+  }
+}
+
+/*=============================*/
+/*==========bigger desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1680px) {
+  footer{
+      padding: 40px 33em;
+  }
+}

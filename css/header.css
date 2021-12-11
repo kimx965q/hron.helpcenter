@@ -1,0 +1,90 @@
+/* NAV */
+
+header{
+    background: #AF4399;
+    padding: 40px 3em;
+    
+  }
+  
+  .top-nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  
+   .nav-btn a{
+      text-decoration: none;
+      border: 2px solid white;
+      padding: 12px 16px;
+      color: white;
+      border-radius: 12px;
+  }
+  
+  .nav-btn a:hover{
+      background: white;
+      color: #AF4399;
+      font-weight: 500;
+  }
+  
+  .buttom-nav h1{
+      font-size: 50px;
+      color: white;
+      
+      margin-top: 40px;
+  }
+  
+  .buttom-nav p{
+      color: white;
+      font-weight: 300;
+      line-height: 1.5em;
+      margin-top: 12px;
+      font-size: 17px;
+  }
+
+
+
+
+/*=============================*/
+/*==========Tablet styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 700px) {
+    header{
+        padding: 40px 6em;
+      }
+}
+
+
+/*=============================*/
+/*==========desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1100px){
+    header{
+        padding: 40px 12em;
+      }
+}
+
+/*=============================*/
+/*==========bigger desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1440px) {
+    header{
+        padding: 40px 18em;
+      }
+
+}
+
+/*=============================*/
+/*==========bigger desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1680px) {
+    header{
+        padding: 40px 27em;
+      }
+
+   
+}

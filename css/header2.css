@@ -1,0 +1,109 @@
+/* NAV */
+
+  
+header{
+    padding: 40px 3em;
+    background: #AF4399;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn a{
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 12px 16px;
+  color: white;
+  border-radius: 12px;
+}
+
+.nav-btn a:hover{
+  background: white;
+  color: #AF4399;
+  font-weight: 500;
+}
+
+.nav-line{
+  height: 2px;
+  width: 100%;
+  background: #fff;
+  margin-top: 24px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #E5EAEB;
+  border-radius: 8px;
+  height: 57px;
+  padding-left: 16px;
+  background: #fff;
+  margin-top: 24px;
+}
+
+
+
+.search-input input{
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 8px;
+  font-size: 16px;
+  color: #4D6C78;
+}
+::placeholder{
+  color: #4D6C78;
+}
+.search-input .icon{
+  color: #AF4399;
+}
+
+
+
+/*=============================*/
+/*==========Tablet styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 700px) {
+    header{
+        padding: 40px 6em;
+      }
+}
+
+
+/*=============================*/
+/*==========desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1100px){
+    header{
+        padding: 40px 12em;
+      }
+}
+
+/*=============================*/
+/*==========bigger desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1440px) {
+    header{
+        padding: 40px 18em;
+      }
+
+}
+
+/*=============================*/
+/*==========bigger desktop styles==========*/
+/*=============================*/
+
+@media screen and (min-width: 1680px) {
+    header{
+        padding: 40px 27em;
+      }
+
+   
+}

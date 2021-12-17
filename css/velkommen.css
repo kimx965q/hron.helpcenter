@@ -16,7 +16,7 @@ body{
 /*   BREADCRUMBS    */
 
 .breadcrumbs-container{
-    padding: 24px 3em;
+    padding: 24px 1.7em;
 }
 
 .breadcrumbs-item{
@@ -47,7 +47,7 @@ body{
 /*   ARTICLE    */
 
 .article{
-    padding: 20px 3em;
+    padding: 20px 1.7em;
 }
 
 h1{
@@ -169,7 +169,7 @@ p{
 
 .contact{
     background: #F5F7F8;
-    padding: 40px 3em;
+    padding: 40px 1.7em;
 }
 
 .contact-box{

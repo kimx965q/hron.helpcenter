@@ -17,7 +17,7 @@ html {
 /*  SEARCH BAR  */
 
 .search-container{
-    padding: 40px 3em;
+    padding: 40px 1.7em;
 }
 
 .search-input {
@@ -52,7 +52,7 @@ html {
 /*   CATEGORIES    */
 
 .categories-container{
-    padding: 0 3em;
+    padding: 0 1.7em;
     
 }
 .categories-container h1{
@@ -110,7 +110,7 @@ html {
 /*   KOM GODT IGANG    */
 
 .kgi-container{
-    padding: 40px 3em;
+    padding: 40px 1.7em;
 }
 
 .intro h1{
@@ -153,14 +153,14 @@ html {
 /*    GUIDES     */
 
 .guides-container{
-    padding: 0 3em;
+    padding: 0 1.7em;
 }
 
 
 /*    FAQs     */
 
 .faqs-container{
-    padding: 40px 3em;
+    padding: 40px 1.7em;
 }
 
 *::before,
@@ -245,7 +245,7 @@ max-height: 20rem;
 
 .contact{
     background: #F5F7F8;
-    padding: 40px 3em;
+    padding: 40px 1.7em;
 }
 
 .contact-box{

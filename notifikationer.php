@@ -1,4 +1,3 @@
-
 <?php include 'includes/header2.php'; ?>
 
 <!------------main--------------->
@@ -12,66 +11,79 @@
                 <a href="index.php" class="breadcrumbs-link">Kom godt i gang</a>
             </li>
             <li class="breadcrumbs-item">
-                <a href="indstillinger.php" class="breadcrumbs-link breadcrumbs-link-active">Virksomheden</a>
+                <a href="notifikationer.php" class="breadcrumbs-link breadcrumbs-link-active">Notifikationer</a>
             </li>
         </ul>
     </section>
 
     <section class="article">
-        <h1>Virksomheden</h1>
+        <h1>Notifikationer</h1>
         
 
+        <P class="txt">Her gennemgår vi <strong>Notifikationer.</P>
 
-        <P class="txt">Her gennemgår vi indstillingen: <strong>Virksomheden.</strong>
-            <br>Dette er første skridt til at få skabt jeres virksomheds
-            identitet i HR-ON Staff.</P>
+        <p class="txt">Notifikationer handler om, hvilken information I ønsker
+             fra platformen. Det kan være svært at vide, hvilke notifikationer 
+             der giver mening for jer, før I kommer godt i gang med at bruge 
+             platformen.</p>
 
-            <img src="images\virksomheden_gif.gif" alt="gif">
-
-        <p class="txt">Start med at redigere information på
-            jeres virksomhed. Dette gøres ved at klikke på denne
-            <img src="images/Signature icon.svg" alt=""> til
-            højre for “Om virksomheden”.
+        <p class="txt">I kan godt oprette notifikationer nu, men vi anbefaler,
+             at I vender tilbage til denne indstilling igen på et senere 
+             tidspunkt. Det anbefaler vi, fordi I på et senere tidspunkt har 
+             fået et bedre indblik i, hvilke informationer I har brug for i 
+             forbindelse med brugen af platformens mange funktioner. 
         </p>
 
-        <h2>Indstillinger</h2>
+        <p class="txt">Her ses hvordan I finder Notifikationer:</p>
 
-        <p class="txt">Til højre for <strong>Virksomheden</strong>
-            finder I <strong>Indstillinger</strong> . Dette er generelle systemindstillinger.
+            <img src="images\Notifikationer-high.gif" alt="gif">
+
+    
+
+        <p class="txt"> <strong>Typer</strong> <br>
+        En notifikationstype bruges til at definere, hvornår og hvordan I ønsker
+         at modtage notifikationer. De mest gængse typer er allerede oprettet i
+        platformen. I kan til hver en tid tilføje nye eller rette i navnene på 
+        de oprettede notifikationstyper. <br> <br>
         </p>
 
-        <p class="txt"> <strong>Tema:</strong> Her kan I koble jeres virksomheds identitet
-            på jeres Staff konto ved at tilføje brugerdefineret
-            vinduetitel, brugerdefineret favicon samt brandfarver
-            og kontrastfarver.
+     <h2>Notifikationer - Tekstguide</h2>
 
+
+        <p class="txt">Vi har oprettet notifikationer til inspiration på jeres
+             konto i HR-ON Staff. Disse notifikationer kan I rette eller slette
+              alt efter jeres behov. 
         </p>
 
-        <p class="txt"><strong>Digital signatur:</strong> Her kan I
-            fravælge brugen af digital signatur i jeres system eller
-            tilføje én eller flere standardmodtagere.
+        <p class="txt">I gennemgår Notifikationer ved at klikke på pilen ud for
+             hver kategori. Herefter kan I rette ved at klikke på de tre prikker
+              til højre for notifikationen. Hvis I ønsker at tilføje en 
+              notifikation klik da på <strong>Tilføj notifikation.</strong> Herefter udfylder I 
+              felterne, som vi gennemgår herunder.
         </p>
 
-        <p class="txt"><strong>Medarbejdere:</strong> Her kan I indstille,
-            hvornår I ønsker at slette fratrådte medarbejdere.
-            Her er det en god idé at få jeres juridiske afdeling
-            til at tage stilling til, hvad jeres personalepolitik
-            indeholder.
+        <p class="txt"><strong>Besked:</strong> Det er muligt at anvende 
+        variabler # i dette felt, der kan være med til at præcisere
+         notifikationen.
         </p>
 
-        <p class="txt"><strong>Dokumenter:</strong> Her kan I indstille,
-            hvornår I ønsker at slette dokumenter efter udløbsdato.
-            Dette er kun relevant, hvis I opretter dokumenter med
-            udløbsdato, som I ønsker at systemet automatisk skal slette.
-            Det kan være dokumenter, I ikke har brug for historik over.
+        <p class="txt"><strong>Type:</strong> Vælg den type I ønsker i forhold til 
+        den givne notifikation.
         </p>
 
-        <p class="txt"><strong>Notifikationer:</strong> Her kan I indstille,
-            hvornår I ønsker en notifikation, inden en medarbejder fratræder.
-            (Notifikationen sendes til…)
+        <p class="txt"><strong>Modtager:</strong>Her kan I vælge mellem
+         <strong>Brugerrolle</strong>, der indeholder de roller, I har tilføjet eller
+          <strong>Brugerdefineret</strong>, der indeholder alle medarbejdere, I har tilføjet.
         </p>
 
+        <img src="images\notifikationergrafik.svg" width="100%" alt="">
 
+      
+        <p class="txt">Nu har vi gennemgået indstillingen <strong>Notifikationer.</strong> 
+            Her har I tilføjet eller tilrettet de notifikationer, I har brug 
+            for, at platformen udsender. I kan til enhver tid rette i disse 
+            indstillinger. 
+        </p>
 
         <p class="txt2">Var denne artikel til hjælp?</p>
 

@@ -1,4 +1,3 @@
-
 <?php include 'includes/header2.php'; ?>
 
 <!------------main--------------->
@@ -12,66 +11,44 @@
                 <a href="index.php" class="breadcrumbs-link">Kom godt i gang</a>
             </li>
             <li class="breadcrumbs-item">
-                <a href="indstillinger.php" class="breadcrumbs-link breadcrumbs-link-active">Virksomheden</a>
+                <a href="ekstern_integration.php" class="breadcrumbs-link breadcrumbs-link-active">Ekstern Integration</a>
             </li>
         </ul>
     </section>
 
     <section class="article">
-        <h1>Virksomheden</h1>
+        <h1>Ekstern Integration</h1>
         
 
+        <P class="txt">Her gennemgår vi <strong>Ekstern Integration.</P>
 
-        <P class="txt">Her gennemgår vi indstillingen: <strong>Virksomheden.</strong>
-            <br>Dette er første skridt til at få skabt jeres virksomheds
-            identitet i HR-ON Staff.</P>
+        <p class="txt">HR-ON Staff har et åbent API, hvilket gør, at platformen
+             kan integrere med andre systemer og platforme. Det betyder, at det 
+             er muligt at synkronisere data fra HR-ON Staff til eksempelvis jeres
+              rekrutterings- eller lønsystem.</p>
 
-            <img src="images\virksomheden_gif.gif" alt="gif">
+        <p class="txt">Her ses hvordan I finder Ekstern integration:</p>
 
-        <p class="txt">Start med at redigere information på
-            jeres virksomhed. Dette gøres ved at klikke på denne
-            <img src="images/Signature icon.svg" alt=""> til
-            højre for “Om virksomheden”.
+            <img src="images\xtern.gif" alt="gif">
+
+    
+
+        <p class="txt">Platformen er ikke begrænset til de systemer, der er
+             illustreret i indstillingen. I er derfor velkommen til at kontakte
+              vores Customer Success team, hvis I har spørgsmål til nogle 
+              konkrete systemer, I bruger. Det er ikke sikkert, at det er os,
+               der skal supportere jer i forbindelse med integrationen, da der
+                kan være begrænsninger i de systemer, I anvender.  <br> <br>
         </p>
 
-        <h2>Indstillinger</h2>
+      
+        <p class="txt">Vi har nu gennemgået indstillingen <strong>Ekstern integration.</strong>
+             Vi går nu videre til de tre sidste indstillinger i Indstillinger.
+              Disse resterende indstillinger har vi samlet, da de er forholdsvis
+               enkle at gennemgå. 
 
-        <p class="txt">Til højre for <strong>Virksomheden</strong>
-            finder I <strong>Indstillinger</strong> . Dette er generelle systemindstillinger.
-        </p>
-
-        <p class="txt"> <strong>Tema:</strong> Her kan I koble jeres virksomheds identitet
-            på jeres Staff konto ved at tilføje brugerdefineret
-            vinduetitel, brugerdefineret favicon samt brandfarver
-            og kontrastfarver.
 
         </p>
-
-        <p class="txt"><strong>Digital signatur:</strong> Her kan I
-            fravælge brugen af digital signatur i jeres system eller
-            tilføje én eller flere standardmodtagere.
-        </p>
-
-        <p class="txt"><strong>Medarbejdere:</strong> Her kan I indstille,
-            hvornår I ønsker at slette fratrådte medarbejdere.
-            Her er det en god idé at få jeres juridiske afdeling
-            til at tage stilling til, hvad jeres personalepolitik
-            indeholder.
-        </p>
-
-        <p class="txt"><strong>Dokumenter:</strong> Her kan I indstille,
-            hvornår I ønsker at slette dokumenter efter udløbsdato.
-            Dette er kun relevant, hvis I opretter dokumenter med
-            udløbsdato, som I ønsker at systemet automatisk skal slette.
-            Det kan være dokumenter, I ikke har brug for historik over.
-        </p>
-
-        <p class="txt"><strong>Notifikationer:</strong> Her kan I indstille,
-            hvornår I ønsker en notifikation, inden en medarbejder fratræder.
-            (Notifikationen sendes til…)
-        </p>
-
-
 
         <p class="txt2">Var denne artikel til hjælp?</p>
 

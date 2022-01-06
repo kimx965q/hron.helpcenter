@@ -81,6 +81,34 @@
                 </div>
             </a>
 
+            <a href="Afdelinger.php">
+                <div class="article-box">
+                    <h4>Afdelinger</h4>
+                    <div class="icon2"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </a>
+
+            <a href="stamkortsopsætning.php">
+                <div class="article-box">
+                    <h4>Stamkortsopsætning</h4>
+                    <div class="icon2"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </a>
+
+            <a href="roller_rettigheder.php">
+                <div class="article-box">
+                    <h4>Roller og Rettigheder</h4>
+                    <div class="icon2"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </a>
+
+            <a href="notifikationer.php">
+                <div class="article-box">
+                    <h4>Notifikationer</h4>
+                    <div class="icon2"><i class="fas fa-chevron-right"></i></div>
+                </div>
+            </a>
+
         </div>
     </section>
 
@@ -93,9 +121,9 @@
         </div>
 
         <div>
-            <a href="#">
+            <a href="adm_medarbejdere.php">
                 <div class="article-box">
-                    <h4>Opsætning af </h4>
+                    <h4>Administrér medarbejdere</h4>
                     <div class="icon2"><i class="fas fa-chevron-right"></i></div>
                 </div>
             </a>

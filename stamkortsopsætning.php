@@ -1,4 +1,3 @@
-
 <?php include 'includes/header2.php'; ?>
 
 <!------------main--------------->
@@ -12,66 +11,91 @@
                 <a href="index.php" class="breadcrumbs-link">Kom godt i gang</a>
             </li>
             <li class="breadcrumbs-item">
-                <a href="indstillinger.php" class="breadcrumbs-link breadcrumbs-link-active">Virksomheden</a>
+                <a href="stamkortopsætning.php" class="breadcrumbs-link breadcrumbs-link-active">Stamkortopsætning</a>
             </li>
         </ul>
     </section>
 
     <section class="article">
-        <h1>Virksomheden</h1>
+        <h1>Stamkortopsætning</h1>
         
 
+        <P class="txt">Her gennemgår vi <strong>Stamkortopsætning.</P>
 
-        <P class="txt">Her gennemgår vi indstillingen: <strong>Virksomheden.</strong>
-            <br>Dette er første skridt til at få skabt jeres virksomheds
-            identitet i HR-ON Staff.</P>
+        <p class="txt">I denne indstilling skal I tage stilling til, hvilke
+             stamdata I har brug for på jeres medarbejdere. Vi har allerede
+              oprettet felter på jeres stamkort. Disse felter kan I se som
+               inspiration, som I enten kan bevare, rette eller slette.</p>
 
-            <img src="images\virksomheden_gif.gif" alt="gif">
+               <p class="txt">Her ses hvordan I finder Stamkortsopsætning:</p>
 
-        <p class="txt">Start med at redigere information på
-            jeres virksomhed. Dette gøres ved at klikke på denne
-            <img src="images/Signature icon.svg" alt=""> til
-            højre for “Om virksomheden”.
+            <img src="images\stamkortopsætning.gif" alt="gif">
+
+        <p class="txt">Der vil være få felter, som er påkrævet i platformen,
+             og som I derfor ikke kan slette. Disse felter er:
         </p>
 
-        <h2>Indstillinger</h2>
-
-        <p class="txt">Til højre for <strong>Virksomheden</strong>
-            finder I <strong>Indstillinger</strong> . Dette er generelle systemindstillinger.
-        </p>
-
-        <p class="txt"> <strong>Tema:</strong> Her kan I koble jeres virksomheds identitet
-            på jeres Staff konto ved at tilføje brugerdefineret
-            vinduetitel, brugerdefineret favicon samt brandfarver
-            og kontrastfarver.
-
-        </p>
-
-        <p class="txt"><strong>Digital signatur:</strong> Her kan I
-            fravælge brugen af digital signatur i jeres system eller
-            tilføje én eller flere standardmodtagere.
-        </p>
-
-        <p class="txt"><strong>Medarbejdere:</strong> Her kan I indstille,
-            hvornår I ønsker at slette fratrådte medarbejdere.
-            Her er det en god idé at få jeres juridiske afdeling
-            til at tage stilling til, hvad jeres personalepolitik
-            indeholder.
-        </p>
-
-        <p class="txt"><strong>Dokumenter:</strong> Her kan I indstille,
-            hvornår I ønsker at slette dokumenter efter udløbsdato.
-            Dette er kun relevant, hvis I opretter dokumenter med
-            udløbsdato, som I ønsker at systemet automatisk skal slette.
-            Det kan være dokumenter, I ikke har brug for historik over.
-        </p>
-
-        <p class="txt"><strong>Notifikationer:</strong> Her kan I indstille,
-            hvornår I ønsker en notifikation, inden en medarbejder fratræder.
-            (Notifikationen sendes til…)
+       
+         <p class="txt"><strong>- Fornavn <br>
+                        - Efternavn<br>
+                        - Email<br>
+                        - Afdelinger<br>
         </p>
 
 
+
+        <p class="txt">Disse felter er påkrævet, da de entydigt er med til at
+             identificere jeres medarbejdere. Jeres medarbejderes unikke e-mail
+              er nøglen til jeres platform, og dermed den eneste måde, hvor I kan
+               give adgang til platformen. Genlæs guiden om Afdelinger for at
+                lære mere om, hvorfor Afdelinger er et systemkrævet felt. 
+        </p>
+
+      
+
+        <img src="images\Stamkortopsætnin_grafik.png" width="100%" alt="">
+
+
+
+        <p class="txt"> <strong>Feltoverskrifter</strong> <br>
+        På hver af jeres faner er der mulighed for yderligere opdeling af
+         jeres stamkort ved at oprette feltoverskrifter. Det kan være med til
+          at skabe et bedre overblik over stamdata. 
+        </p>
+
+        <p class="txt"> <strong>Felter</strong> <br>
+        I kan oprette alle de felter, I ønsker på jeres stamkort. 
+        Felterne opretter I i højre side under Ikke kategoriserede felter.
+        Her udfylder I skemaet. 
+        </p>
+
+        <p class="txt"> Et felt kan gøres unikt, hvilket betyder, at systemet
+             kan registrere, hvad der tidligere er udfyldt i dette felt og dermed 
+             blokere for, at der udfyldes samme info igen. Det kan være relevant,
+            hvis I opretter et felt til initialer og I ikke ønsker, at flere 
+            medarbejdere har samme initialer. 
+        </p>
+
+        <p class="txt">I kan derudover markere felter som påkrævet eller følsomt. </p>
+        
+        <p class="txt">Det er muligt at trække og slippe både feltoverskrifter 
+            og felter efter behov. 
+        </p>
+
+        <p class="txt"> <strong>Felttyper</strong> <br>
+        Der findes forskellige typer af felter, som I kan vælge mellem 
+        afhængigt af, hvilken information I har brug for. Disse typer afhænger
+         af, hvad feltet skal informere om. I kan læse om typerne ved at klikke 
+         på spørgsmålstegnet.
+        </p>
+        
+        <img src="images\Stamkortopsætnin_grafik2.png" width="100%" alt="">
+
+        <p class="txt">Nu har vi gennemgået indstillingen <strong>Stamkortsopsætning.</strong>
+             Her har I taget stilling til, hvilke data I ønsker på jeres 
+             medarbejdere i HR-ON Staff, og hvordan jeres stamkort skal sættes 
+             op. I kan til enhver tid tilføje og rette i disse indstillinger.
+        </p>       
 
         <p class="txt2">Var denne artikel til hjælp?</p>
 

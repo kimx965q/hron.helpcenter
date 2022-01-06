@@ -1,4 +1,3 @@
-
 <?php include 'includes/header2.php'; ?>
 
 <!------------main--------------->
@@ -12,65 +11,97 @@
                 <a href="index.php" class="breadcrumbs-link">Kom godt i gang</a>
             </li>
             <li class="breadcrumbs-item">
-                <a href="indstillinger.php" class="breadcrumbs-link breadcrumbs-link-active">Virksomheden</a>
+                <a href="afdelinger.php" class="breadcrumbs-link breadcrumbs-link-active">Afdelinger</a>
             </li>
         </ul>
     </section>
 
     <section class="article">
-        <h1>Virksomheden</h1>
+        <h1>Afdelinger</h1>
         
 
 
-        <P class="txt">Her gennemgår vi indstillingen: <strong>Virksomheden.</strong>
-            <br>Dette er første skridt til at få skabt jeres virksomheds
-            identitet i HR-ON Staff.</P>
+        <P class="txt">Her gennemgår vi <strong>Afdelinger.</strong> </P>
 
-            <img src="images\virksomheden_gif.gif" alt="gif">
-
-        <p class="txt">Start med at redigere information på
-            jeres virksomhed. Dette gøres ved at klikke på denne
-            <img src="images/Signature icon.svg" alt=""> til
-            højre for “Om virksomheden”.
+        <p class="txt">De fleste virksomheder har en organisationsstruktur,
+             hvor afdelinger er med til at definere medarbejdernes 
+             tilhørsforhold og virksomhedens opbygning. Afdelinger er et
+              systemkrævet felt, hvilket betyder, at I altid skal tilknytte
+               en afdeling til jeres medarbejdere.
         </p>
 
-        <h2>Indstillinger</h2>
-
-        <p class="txt">Til højre for <strong>Virksomheden</strong>
-            finder I <strong>Indstillinger</strong> . Dette er generelle systemindstillinger.
+        <p class=txt>Afdelinger er derfor en grundlæggende indstilling 
+            for jeres platform, som I skal tage stilling til, inden
+             I kan komme i gang med at bruge platformen. 
         </p>
 
-        <p class="txt"> <strong>Tema:</strong> Her kan I koble jeres virksomheds identitet
-            på jeres Staff konto ved at tilføje brugerdefineret
-            vinduetitel, brugerdefineret favicon samt brandfarver
-            og kontrastfarver.
+        <p class=txt>Her ses hvordan I finder Afdelinger: <br> <br></p>
+        
+        <img src="images\afdelinger.gif" alt="gif">
+        <br><br>
 
+
+        <h2>Afdelinger</h2>
+
+        <p class="txt">Vi har oprettet afdelinger til inspiration på
+             jeres konto HR-ON Staff. Disse afdelinger kan I rette eller
+              slette alt efter jeres behov. 
         </p>
 
-        <p class="txt"><strong>Digital signatur:</strong> Her kan I
-            fravælge brugen af digital signatur i jeres system eller
-            tilføje én eller flere standardmodtagere.
+        <p class="txt"> Systemet kræver, at der er mindst en 
+            Hovedafdeling. Denne bør I starte med at oprette. 
         </p>
 
-        <p class="txt"><strong>Medarbejdere:</strong> Her kan I indstille,
-            hvornår I ønsker at slette fratrådte medarbejdere.
-            Her er det en god idé at få jeres juridiske afdeling
-            til at tage stilling til, hvad jeres personalepolitik
-            indeholder.
+        <p class="txt">Når I tilføjer en afdeling, skal I udfylde de
+             felter, I finder relevante. For at opbygningen i HR-ON Staff
+              minder om jeres organisations nuværende opbygning, skal I 
+              tage stilling til, om der er en overafdeling til den
+               afdeling, I er ved at oprette. 
         </p>
 
-        <p class="txt"><strong>Dokumenter:</strong> Her kan I indstille,
-            hvornår I ønsker at slette dokumenter efter udløbsdato.
-            Dette er kun relevant, hvis I opretter dokumenter med
-            udløbsdato, som I ønsker at systemet automatisk skal slette.
-            Det kan være dokumenter, I ikke har brug for historik over.
+        <div class="fig-resp">
+            <div class="fig2">
+            <div class="fig2-header">
+                <div class="icon-fig2"><i class="far fa-lightbulb"></i></div>
+                <h3>Refleksion</h3>
+            </div>
+            <p class="txt">Et eksempel på en overafdeling med
+                 dertilhørende underafdelinger kunne være: <br>
+                 Overafdeling: Salg <br>
+                 Underafdeling: Internt salg og Eksternt salg <br> <br>
+                 For at I kan opsætte Afdelinger, vil det være en god 
+                 idé, at I har dannet jer et overblik over jeres afdelinger,
+                  herunder både over- og underafdeling.
+            </p>
+        </div> <br><br>
+
+        <h2>Afdelingstyper</h2>
+
+        <p class="txt">Afdelingstyper er mest relevant, hvis I ønsker
+             at gøre jeres organisationsdiagram mere visuelt illustreret
+              med farver. I kan give en bestemt farve til en bestemt
+               afdelingstype for at få et bedre overblik over jeres 
+               virksomheds struktur.
         </p>
 
-        <p class="txt"><strong>Notifikationer:</strong> Her kan I indstille,
-            hvornår I ønsker en notifikation, inden en medarbejder fratræder.
-            (Notifikationen sendes til…)
+        <p class="txt"> I kan tilknytte en afdelingstype til afdelinger
+             ved at klikke på de tre prikker til højre for Afdelinger 
+             og herefter klikke på <strong>Rediger afdeling.
         </p>
 
+        <img src="images\afdelinger_grafik.png" alt="" width=100%>
+
+        <p class="txt"> Nu har vi gennemgået indstillingen <strong>Afdelinger</strong>.
+             Denne indstilling er essentiel i jeres platform, da Afdelinger 
+             er et felt, som systemet kræver, at I udfylder hver gang, at I 
+             opretter en medarbejder.
+        </p>
+
+        <p class="txt"> Vi håber, at I nu har fået oprettet jeres afdelinger
+             og dermed fået skabt en organisationsstruktur, der stemmer overens
+              med jeres virksomhed. I kan til hver en tid ændre og tilføje
+               afdelinger.
+        </p>
 
 
         <p class="txt2">Var denne artikel til hjælp?</p>

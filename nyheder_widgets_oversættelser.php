@@ -1,4 +1,3 @@
-
 <?php include 'includes/header2.php'; ?>
 
 <!------------main--------------->
@@ -12,66 +11,73 @@
                 <a href="index.php" class="breadcrumbs-link">Kom godt i gang</a>
             </li>
             <li class="breadcrumbs-item">
-                <a href="indstillinger.php" class="breadcrumbs-link breadcrumbs-link-active">Virksomheden</a>
+                <a href="nyheder_widgets_oversættelser.php" class="breadcrumbs-link breadcrumbs-link-active">Nyheder, Personlige widgets og Oversættelser</a>
             </li>
         </ul>
     </section>
 
     <section class="article">
-        <h1>Virksomheden</h1>
+        <h1>Nyheder, Personlige widgets og Oversættelser</h1>
         
 
+        <P class="txt">Vi gennemgår her de sidste indstillinger <strong> Nyheder, Personlige widgets og Oversættelser.
+        </P>
 
-        <P class="txt">Her gennemgår vi indstillingen: <strong>Virksomheden.</strong>
-            <br>Dette er første skridt til at få skabt jeres virksomheds
-            identitet i HR-ON Staff.</P>
-
-            <img src="images\virksomheden_gif.gif" alt="gif">
-
-        <p class="txt">Start med at redigere information på
-            jeres virksomhed. Dette gøres ved at klikke på denne
-            <img src="images/Signature icon.svg" alt=""> til
-            højre for “Om virksomheden”.
+        <p class="txt">Til forskel fra de andre indstillinger er disse
+             indstillinger ikke nødvendige for, at I kan komme godt i gang
+              med HR-ON Staff. Disse indstillinger er I derfor velkommen til
+               at springe over nu og vende tilbage til på et senere tidspunkt. 
         </p>
 
-        <h2>Indstillinger</h2>
+        <p class="txt">Her ses hvordan I finder disse instillinger:</p>
 
-        <p class="txt">Til højre for <strong>Virksomheden</strong>
-            finder I <strong>Indstillinger</strong> . Dette er generelle systemindstillinger.
+            <img src="images\Personlige widgets mm-high.gif" alt="gif"> <br> <br>
+
+        <h2>Nyheder</h2>
+
+        <p class="txt">I har mulighed for at oprette nyheder i systemet.
+             Funktionen kan eksempelvis bruges, hvis I vil invitere jeres
+              medarbejdere til sommerfest, eller det kan være en påmindelse om, 
+              at medarbejderne skal huske at melde ferie inden en bestemt dato. 
         </p>
 
-        <p class="txt"> <strong>Tema:</strong> Her kan I koble jeres virksomheds identitet
-            på jeres Staff konto ved at tilføje brugerdefineret
-            vinduetitel, brugerdefineret favicon samt brandfarver
-            og kontrastfarver.
+      
+        <p class="txt">I kan oprette en nyhed ved at klikke på <strong>Opret nyhed.</strong> 
+            Herefter åbnes et vindue, hvor I udfylder felterne. I kan vælge, 
+            om nyheden skal åbnes i en pop-up, når medarbejderne logger på
+             platformen, eller om den blot skal vises under nyhedsikonet
+              <img src="images\nyheder_icon.png" alt="">
+         oppe i øverste højre hjørne. 
+        </p>  <br> <br>
 
+        <h2>Personlige widgets</h2>
+        <p class="txt">Personlige widgets er en funktion, der er forbundet med
+             Dashboard. En personlig widget kan eksempelvis være et link til 
+             jeres medarbejderhåndbog. 
         </p>
 
-        <p class="txt"><strong>Digital signatur:</strong> Her kan I
-            fravælge brugen af digital signatur i jeres system eller
-            tilføje én eller flere standardmodtagere.
+        <p class="txt">I kan oprette personlige widgets ved at klikke på <strong> 
+        Tilføj personlig widget.</strong> Herefter åbnes et vindue med tre trin: <br> <br>
+1. trin handler om den konkrete Widgets indhold. Hvis I ønsker at linke til et 
+website eller lignende, skal I klikke på <strong>Tilføj en knap til widgeten.</strong> <br>
+2. trin handler om designet på den konkrete Widget. Her kan I justere efter jeres
+ ønsker. <br>
+3. trin er en forhåndsvisning, således at I kan se, hvordan jeres personlige
+ widget kommer til at se ud på jeres Dashboard. Læs mere om Dashboardets 
+ muligheder.
+        </p> <br><br>
+
+        <h2>Oversættelser</h2>
+        <p class="txt">Denne indstilling er kun relevant, såfremt I ønsker at
+             anvende platformen på andre sprog end dansk. Det kan eksempelvis 
+             være, hvis I har internationale medarbejdere. De felter, som I 
+             opretter i platformen (brugerdefinerede felter), vil ikke automatisk
+              blive oversat til andre sprog. Disse felter skal I derfor aktivt 
+              oversætte under indstillingen <strong> Oversættelser.</strong> 
         </p>
 
-        <p class="txt"><strong>Medarbejdere:</strong> Her kan I indstille,
-            hvornår I ønsker at slette fratrådte medarbejdere.
-            Her er det en god idé at få jeres juridiske afdeling
-            til at tage stilling til, hvad jeres personalepolitik
-            indeholder.
-        </p>
-
-        <p class="txt"><strong>Dokumenter:</strong> Her kan I indstille,
-            hvornår I ønsker at slette dokumenter efter udløbsdato.
-            Dette er kun relevant, hvis I opretter dokumenter med
-            udløbsdato, som I ønsker at systemet automatisk skal slette.
-            Det kan være dokumenter, I ikke har brug for historik over.
-        </p>
-
-        <p class="txt"><strong>Notifikationer:</strong> Her kan I indstille,
-            hvornår I ønsker en notifikation, inden en medarbejder fratræder.
-            (Notifikationen sendes til…)
-        </p>
-
-
+        <p class="txt">I bedes kontakte vores Customer Success team, hvis I 
+            ønsker, at jeres platform skal sættes op til andre sprog.</p>
 
         <p class="txt2">Var denne artikel til hjælp?</p>
 
